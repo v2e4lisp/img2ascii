@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from PIL import Image
 import sys
 
@@ -9,7 +11,7 @@ def img_data(img):
     return [list(img.crop((0, y, img.size[0], y+1)).getdata()) for y in range(0, img.size[1])]
 
 def row2str(row):
-    """ convert an array to ascii char """
+    """ convert an array to ascii string """
     return "".join([ ks[i-1] for i in row ])
 
 def img2ascii(img_path, dx=1, dy=1):
