@@ -2,7 +2,7 @@
 Simple script to convert image to an ascii art. Take a look at the examples.
 
 ** exmaple (Curry)
-[[examples/curry.png]]
+| [[exmaples/curry.jpg]] | [[examples/curry.png]] |
 
 ** usage
    - ./img2ascii.py image x-ratio y-ratio
