@@ -1,5 +1,6 @@
 * img2ascii
 Simple script to convert image to an ascii art. Take a look at the examples.
+[[examples/curry.png]]
 
 ** usage
    - ./img2ascii.py image x-ratio y-ratio
